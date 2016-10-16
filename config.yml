@@ -7,7 +7,7 @@ mysql:
   port: 3306
   prefix: ''
 settings:
-  defaultCuboidSize: 11
+  defaultCuboidSize: 10
   logsPerPage: 10
   daysFromLastAdminVisitForLoggedSnitchCulling: 0
   daysFromLastAdminVisitForNonLoggedSnitchCulling: 0  
@@ -15,7 +15,7 @@ settings:
   allowTriggeringLevers: false
   togglerestartgroupcheck: false
   displayOwnerOnSnitchBreak: true
-  enableInvisibility: false
+  enableInvisibility: true
   tax_reinforcement_per_alert: false
   max_player_alert_count: 2147483647
 #  max_alert_distance:  
